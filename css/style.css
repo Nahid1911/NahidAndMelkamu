@@ -1,5 +1,31 @@
 .price_button {
-    border: solid
-    
+    border: solid;
     background-color: blue;
+}
+#nav-bar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+
+}
+.nav-link{
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.logo{
+    width: 350px;
+}
+#continer{
+    margin: 70px auto 0;
+    overflow: hidden;
 }
